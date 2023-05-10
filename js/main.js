@@ -1,0 +1,47 @@
+$(document).ready(function(){
+    $('#banner-slider').owlCarousel({
+        loop:true,
+        nav:true,
+        smartSpeed:1000,
+        dots:false,
+        navText:['PREV','NEXT'],
+        items:1,
+        autoplay:true,
+        autoplayTimeout:6000,
+        responsive:{
+            0:{
+            },
+        }
+    })
+
+    $('#project-slider').owlCarousel({
+        loop:true,
+        nav:false,
+        margin:10,
+        dots:true,
+        items:2,
+        smartSpeed:1000,
+        autoplay:true,
+        autoplayTimeout:6000,
+        center:true,
+        responsive:{
+            0:{
+            },
+        }
+    })
+
+    $('#review-slider').owlCarousel({
+        loop:true,
+        nav:false,
+        dots:true,
+        items:1,
+        smartSpeed:1000,
+        autoplay:true,
+        autoplayTimeout:6000,
+        center:true,
+        responsive:{
+            0:{
+            },
+        }
+    })
+})
